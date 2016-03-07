@@ -87,10 +87,19 @@ using System.Management;
         Thread bThread = new Thread(new ParameterizedThreadStart(t.cpuCounter));
         bThread.Name = "Background-Thread";
         bThread.Start("Hello");
+
+        Thread b2Thread = new Thread(new ParameterizedThreadStart(t.cpuCounter));
+        b2Thread.Name = "Background-Thread2";
+        b2Thread.Start("Hello");
+
         while (Console.ReadKey().Key != ConsoleKey.Enter) { }
         bThread.Abort();
         Console.WriteLine("Thread is dead");
-     
+        //thread 2
+        while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+        b2Thread.Abort();
+        Console.WriteLine("Thread is dead");
+
         Console.ReadKey();
         }
         
