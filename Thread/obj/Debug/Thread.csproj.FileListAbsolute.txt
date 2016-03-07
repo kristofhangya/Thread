@@ -1,0 +1,6 @@
+D:\DEVELOP\C#\Thread\Thread\bin\Debug\Thread.exe.config
+D:\DEVELOP\C#\Thread\Thread\bin\Debug\Thread.exe
+D:\DEVELOP\C#\Thread\Thread\bin\Debug\Thread.pdb
+D:\DEVELOP\C#\Thread\Thread\obj\Debug\Thread.exe
+D:\DEVELOP\C#\Thread\Thread\obj\Debug\Thread.pdb
+D:\DEVELOP\C#\Thread\Thread\obj\Debug\Thread.csprojResolveAssemblyReference.cache
